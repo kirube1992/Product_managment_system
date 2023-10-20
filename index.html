@@ -11,12 +11,18 @@
        <header>
         <h1>Product Management System</h1>
     </header>
-        <input type="text" placeholder="Product Name " ><br/>
-        <input type="text" placeholder="Description"><br/>
-        <input type="number" placeholder="Price"><br/>
-        <input type="number" placeholder="Quantity in stock"><br/>
-        <button>Save</button>
-        <a href="productlist.html">Product List</a>
+    <form id="form">
+    <div class="form-uname">
+        <input id="name" type="text" placeholder="Product Name " ><br/>
+        <input id="dis" type="text" placeholder="Description"><br/>
+        <input id="price" type="number" placeholder="Price"><br/>
+        <input id="stock" type="number" placeholder="Quantity in stock"><br/>
+    </div>
+    <div class="form-sub">
+        <button type="submit">Save</button>
+    </div>
+    </form>
+        <div><ul id="result"></ul></div>
     <script src="script.js"></script>
 </body>
 </html>
